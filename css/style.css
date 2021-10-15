@@ -1,21 +1,31 @@
 body{
   background-color: rgb(37,56,73);
 }
+
+.header-container{
+  background-color:  rgb(37,56,73);
+}
+
+.logo{
+  width: 80px;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
 .cd-container {
-    background-color: rgb(37,56,73);
-    width: 70%;
-    min-height: 320px;
-    cursor: pointer;
-  }
+  background-color: rgb(37,56,73);
+  cursor: pointer;
+}
   
-  img {
-    width: 80%;
-  }
+.image-disc{
+  width: 80%;
+  min-height: 250px;
+}
   
-  h6 {
-    color: white;
-  }
+h6{
+  color: white;
+}
   
-  p {
-    color: rgb(182, 182, 182);
-  }
+p{
+  color: rgb(182, 182, 182);
+}

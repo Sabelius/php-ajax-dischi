@@ -17,20 +17,26 @@ include_once __DIR__ . "/database.php";
 
 ?>
 
-<div class="container">
+<div class=" container-fluid">
     <div class="row">
-        <div class="col-3">
-            <div class="cd-container">
-                <?php foreach($dischi as $card){
-                ?>
-                    <img src="<?php echo $card["poster"] ?>">
-                    <h3><?php echo $card["title"]?></h3>
-                    <h3><?php echo $card["author"]?></h3>
-                    <h3><?php echo $card["genre"]?></h3>
-                    <h3><?php echo $card["year"]?></h3>
-                <?php } ?>
-            </div>
+        <div class="col-12 pt-2 header-container">
+          <img class= "logo" src="https://www.michelafranceschina.it/Burattini_Erranti/files/stacks-image-c5a4a2c.jpg">
         </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row pt-5">
+        <?php foreach($dischi as $card){
+        ?>
+            <div class="col-3 cd-container">
+                <img class="image-disc" src="<?php echo $card["poster"] ?>">
+                <h6 class="pt-2 text-uppercase"><?php echo $card["title"]?></h6>
+                <h6><?php echo $card["author"]?></h6>
+                <p><?php echo $card["genre"]?></p>
+                <p><?php echo $card["year"]?></p>
+            </div>
+        <?php } ?>
     </div>
 </div>
 
