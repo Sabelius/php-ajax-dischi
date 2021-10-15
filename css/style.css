@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(37,56,73);
+}
+.cd-container {
+    background-color: rgb(37,56,73);
+    width: 70%;
+    min-height: 320px;
+    cursor: pointer;
+  }
+  
+  img {
+    width: 80%;
+  }
+  
+  h6 {
+    color: white;
+  }
+  
+  p {
+    color: rgb(182, 182, 182);
+  }
