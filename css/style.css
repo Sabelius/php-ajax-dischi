@@ -2,10 +2,6 @@ body{
   background-color: rgb(37,56,73);
 }
 
-.header-container{
-  background-color:  rgb(37,56,73);
-}
-
 .logo{
   width: 80px;
   cursor: pointer;
@@ -13,10 +9,9 @@ body{
 }
 
 .cd-container {
-  background-color: rgb(37,56,73);
   cursor: pointer;
 }
-  
+
 .image-disc{
   width: 80%;
   min-height: 250px;

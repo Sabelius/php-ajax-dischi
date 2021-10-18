@@ -29,7 +29,7 @@ include_once __DIR__ . "/database.php";
     <div class="row pt-5">
         <?php foreach($dischi as $card){
         ?>
-            <div class="col-3 cd-container">
+            <div class="col-3 cd-container text-center pt-4">
                 <img class="image-disc" src="<?php echo $card["poster"] ?>">
                 <h6 class="pt-2 text-uppercase"><?php echo $card["title"]?></h6>
                 <h6><?php echo $card["author"]?></h6>
